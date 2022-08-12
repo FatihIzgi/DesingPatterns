@@ -5,8 +5,7 @@ public class Main {
         System.out.println("12 + 6 = "+addButtonClickListener(12,6));
         System.out.println("12 - 6 = "+subtractButtonClickListener(12,6));
         System.out.println("12 * 6 = "+multiplyButtonClickListener(12,6));
-        System.out.println("12 / 6 = "+divideButtonClickListener(12,6));
-
+        System.out.println("12 / 6 = "+divideButtonClickListener(12,6));git
     }
     public static double addButtonClickListener(double firstNumber, double secondNumber){
         return OperationFactory.getAdder().calculate(firstNumber, secondNumber);
